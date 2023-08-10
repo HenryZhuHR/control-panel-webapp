@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "contro-panel-server"
+version = "0.1.0"
+description = "server of control panel web application"
+authors = ["James Leong <jamesleong27@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.3.2"
+flask-restful = "^0.3.9"
+requests = "^2.30.0"
+msgpack = "^1.0.5"
+simplejson = "^3.19.1"
+pymysql = "^1.0.3"
+dbutils = "^3.0.3"
+setuptools = "57.5.0"
+concurrentloghandler = "^0.9.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
