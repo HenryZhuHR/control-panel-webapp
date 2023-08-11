@@ -1,0 +1,26 @@
+{
+  "name": "control-panel-webapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "tdesign-mobile-vue": "^1.0.0-rc.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "node-sass": "^9.0.0",
+    "sass": "^1.65.1",
+    "sass-loader": "^13.3.2",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}

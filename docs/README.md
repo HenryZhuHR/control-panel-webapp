@@ -3,7 +3,7 @@
 
 ## 技术栈
 
-- 前端: vue + TDesign
+- 前端: vue3 + ts + scss + [TDesign](https://tdesign.tencent.com/mobile-vue/getting-started) 
 - 后端: flask
 
 ## 前端

@@ -7,3 +7,6 @@
 yarn
 yarn docs:dev
 ```
+
+
+npm create vite@latest control-panel-webapp --template vue-ts
